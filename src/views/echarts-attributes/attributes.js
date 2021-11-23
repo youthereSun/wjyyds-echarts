@@ -28,16 +28,16 @@ const attributes = {
     },
     {
       propsName: 'width',
-      des: '图标的宽度',
+      des: '图表的宽度',
       type: 'string',
-      options: '百分比和px，百分比取图标容器的百分比',
+      options: '百分比和px，百分比取图表容器的百分比',
       default: '100%'
     },
     {
       propsName: 'height',
-      des: '图标的宽度',
+      des: '图表的宽度',
       type: 'string',
-      options: '百分比和px，百分比取图标容器的百分比',
+      options: '百分比和px，百分比取图表容器的百分比',
       default: '300px'
     },
     {
@@ -49,7 +49,7 @@ const attributes = {
     },
     {
       propsName: 'color-array',
-      des: '图标的调色盘，一个包含颜色的数组，按顺序匹配系列的颜色',
+      des: '图表的调色盘，一个包含颜色的数组，按顺序匹配系列的颜色',
       type: 'array',
       options: '-',
       default: ' [\'#3197ce\']'
@@ -140,16 +140,16 @@ const attributes = {
     },
     {
       propsName: 'width',
-      des: '图标的宽度',
+      des: '图表的宽度',
       type: 'string',
-      options: '百分比和px，百分比取图标容器的百分比',
+      options: '百分比和px，百分比取图表容器的百分比',
       default: '100%'
     },
     {
       propsName: 'height',
-      des: '图标的宽度',
+      des: '图表的宽度',
       type: 'string',
-      options: '百分比和px，百分比取图标容器的百分比',
+      options: '百分比和px，百分比取图表容器的百分比',
       default: '300px'
     },
     {
@@ -161,7 +161,7 @@ const attributes = {
     },
     {
       propsName: 'color-array',
-      des: '图标的调色盘，一个包含颜色的数组，按顺序匹配系列的颜色',
+      des: '图表的调色盘，一个包含颜色的数组，按顺序匹配系列的颜色',
       type: 'array',
       options: '-',
       default: ' [\'#3197ce\']'
@@ -256,16 +256,16 @@ const attributes = {
     },
     {
       propsName: 'width',
-      des: '图标的宽度',
+      des: '图表的宽度',
       type: 'string',
-      options: '百分比和px，百分比取图标容器的百分比',
+      options: '百分比和px，百分比取图表容器的百分比',
       default: '100%'
     },
     {
       propsName: 'height',
-      des: '图标的宽度',
+      des: '图表的宽度',
       type: 'string',
-      options: '百分比和px，百分比取图标容器的百分比',
+      options: '百分比和px，百分比取图表容器的百分比',
       default: '300px'
     },
     {
@@ -277,15 +277,15 @@ const attributes = {
     },
     {
       propsName: 'color-array',
-      des: '图标的调色盘，一个包含颜色的数组，按顺序匹配系列的颜色',
+      des: '图表的调色盘，一个包含颜色的数组，按顺序匹配系列的颜色',
       type: 'array',
       options: '-',
       default: ' [\'#3197ce\']'
     },
     {
       propsName: 'radius',
-      des: '饼图半径',
-      type: 'string',
+      des: '饼图半径,当pie-style为circle时候，为数组[\'40%\', \'60%\']',
+      type: 'string，array',
       options: 'px 百分比',
       default: '60%'
     },
@@ -333,9 +333,9 @@ const attributes = {
     },
     {
       propsName: 'legend-position',
-      des: '图例位置',
+      des: '图例y轴位置 ',
       type: 'string',
-      options: 'top/middle/bottom',
+      options: 'top/middle/bottom 百分比',
       default: 'bottom'
     },
     {
@@ -363,16 +363,16 @@ const attributes = {
     },
     {
       propsName: 'width',
-      des: '图标的宽度',
+      des: '图表的宽度',
       type: 'string',
-      options: '百分比和px，百分比取图标容器的百分比',
+      options: '百分比和px，百分比取图表容器的百分比',
       default: '100%'
     },
     {
       propsName: 'height',
-      des: '图标的宽度',
+      des: '图表的宽度',
       type: 'string',
-      options: '百分比和px，百分比取图标容器的百分比',
+      options: '百分比和px，百分比取图表容器的百分比',
       default: '300px'
     },
     {
@@ -415,16 +415,16 @@ const attributes = {
     },
     {
       propsName: 'width',
-      des: '图标的宽度',
+      des: '图表的宽度',
       type: 'string',
-      options: '百分比和px，百分比取图标容器的百分比',
+      options: '百分比和px，百分比取图表容器的百分比',
       default: '100%'
     },
     {
       propsName: 'height',
-      des: '图标的宽度',
+      des: '图表的宽度',
       type: 'string',
-      options: '百分比和px，百分比取图标容器的百分比',
+      options: '百分比和px，百分比取图表容器的百分比',
       default: '300px'
     },
     {
@@ -542,7 +542,7 @@ const attributes = {
       type: 'boolean',
       options: 'true/false',
       default: 'true'
-    },
+    }
   ]
 }
 
